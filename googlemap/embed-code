@@ -1,0 +1,15 @@
+<div class="bg-pic-car" style="background: url({{wf {&quot;path&quot;:&quot;photo-url&quot;,&quot;type&quot;:&quot;Link&quot;\} }}) center/cover no-repeat"></div>
+<script>
+cars.push({
+  'name'  : '{{wf {&quot;path&quot;:&quot;name&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}',
+  'slug'  : '{{wf {&quot;path&quot;:&quot;slug&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}',
+  'url'   : '{{wf {&quot;path&quot;:&quot;link-url&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}',
+  'make'  : '{{wf {&quot;path&quot;:&quot;make&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}',
+  'modal' : '{{wf {&quot;path&quot;:&quot;model&quot;,&quot;type&quot;:&quot;PlainText&quot;\} }}',
+  'year'  : '{{wf {&quot;path&quot;:&quot;year&quot;,&quot;type&quot;:&quot;Number&quot;\} }}',
+  'lat'   : '{{wf {&quot;path&quot;:&quot;latitude&quot;,&quot;type&quot;:&quot;Number&quot;\} }}',
+  'lng'   : '{{wf {&quot;path&quot;:&quot;longitude&quot;,&quot;type&quot;:&quot;Number&quot;\} }}',
+  'photo' : '{{wf {&quot;path&quot;:&quot;photo-url&quot;,&quot;type&quot;:&quot;Link&quot;\} }}',
+  'pricehr' : '{{wf {&quot;path&quot;:&quot;price-hourly&quot;,&quot;type&quot;:&quot;Number&quot;\} }}',
+});
+</script>
