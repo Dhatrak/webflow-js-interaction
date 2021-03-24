@@ -1,0 +1,53 @@
+<meta name="google-site-verification" content="W414wBJmVGasKtihpX423_x4bPLGnT9d_gNZSTgMp5I" />
+
+<script>
+// Array to store all cars on page. Do not remove!
+var cars = [];
+</script>
+
+<style>
+#map_wrapper {
+  height: 400px;
+}
+#map_canvas {
+  width: 100%;
+  height: 100%;
+}
+.bg-pic-car {
+  max-width:100%;
+  min-height:300px;
+  background-size:cover;
+}
+#map_canvas .bg-pic-car {
+  min-height: 0;
+  height: 80px;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 1200px) {
+  .w-container {
+    max-width: 1400px;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width:1025px) {
+  .dynamic-item-car {
+    width: 31.8%!important;
+  }
+  .w-container {
+    max-width: 1240px;
+  }
+  h1 {
+    font-size: 31px!important;
+  }
+}
+
+@media screen and (max-width:1024px) and (min-height:768px) {
+  .dynamic-item-car {
+    width: 47.5%!important;
+  }
+  .container-header-page {
+    padding:0px!important;
+  }
+}
+</style>
